@@ -1,0 +1,58 @@
+.blue-background
+{
+    background-color: #006da3;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: #fff;
+    text-align: center;
+}
+
+.blue-background > .container h1,
+.blue-background > .container p{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.blue-background > .container h1
+{
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.blue-background > .container p
+{
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.blue-background > .container h1::after
+{
+    content: '';
+    width: 52px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 26px auto;
+    display: block;
+}
+
+.button-white
+{
+    display: inline-block;
+    margin: 25px auto;
+    padding: 15px 50px;
+    border-radius: 30px;
+    background-color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.button-white a
+{
+    color: #242020;
+    cursor: pointer;
+}

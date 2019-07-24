@@ -1,0 +1,22 @@
+/*
+!
+Theme Name:   Leone Engenharia
+Theme URI:    https://leone.rob/
+Author:       Rogério
+Author URI:   https://leone.rob/
+Description:  Tema desenvolvido exclusivamente para fins de testes a empresa auaha!
+Version:      1.0.0
+Text Domain:  auaha
+Tags:         leone, auaha, Rogério, Bonfim, Testes, engenharia
+*/
+
+
+/* Header Import */
+@import url(assets/css/base/header.css);
+/* Sobre A empresa */
+@import url(assets/css/base/sobre.css);
+
+html body
+{
+    font-family: 'Open Sans', sans-serif;
+}
